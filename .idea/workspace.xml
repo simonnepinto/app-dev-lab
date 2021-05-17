@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9a70195e-ca63-4443-acf7-5101a23236c0" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../Atom.lnk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EDUCATION/Cisco Packet Tracer.lnk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EDUCATION/GeoGebra Classic.lnk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EDUCATION/Keil uVision5.LNK" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../git-test/index.html" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1sfWUXXEVEiYO4ZW6YHa3kulhK9" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
+    <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
+    <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9a70195e-ca63-4443-acf7-5101a23236c0" name="Default Changelist" comment="" />
+      <created>1621264140625</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1621264140625</updated>
+    </task>
+    <servers />
+  </component>
+</project>
