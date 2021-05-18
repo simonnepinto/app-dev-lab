@@ -71,7 +71,7 @@
         app:layout_constraintTop_toBottomOf="@id/password2"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toLeftOf="@+id/cancelButton2"
-        android:layout_marginTop="50dp"/>
+        android:layout_marginTop="40dp"/>
 
     <Button
         android:id="@+id/cancelButton2"
@@ -84,10 +84,10 @@
         app:layout_constraintLeft_toRightOf="@id/loginButton2"
         android:layout_marginLeft="40dp"
         app:layout_constraintRight_toRightOf="parent"
-        android:layout_marginTop="50dp"/>
+        android:layout_marginTop="40dp"/>
 
     <ImageView
-        android:layout_width="wrap_content"
+        android:layout_width="460dp"
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toBottomOf="@id/cancelButton2"

@@ -15,7 +15,7 @@ import java.util.regex.Pattern;
 public class MainActivity extends AppCompatActivity {
 
     Button signIn, cancel;
-    EditText username, password;
+    EditText username, password, name;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -24,18 +24,24 @@ public class MainActivity extends AppCompatActivity {
 
         signIn = (Button) findViewById(R.id.signInButton);
         cancel = (Button) findViewById(R.id.cancelButton);
+        name = (EditText) findViewById(R.id.name);
         username = (EditText) findViewById(R.id.username);
         password = (EditText) findViewById(R.id.password);
 
         signIn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                String Susername, Spassword;
+                String Sname, Susername, Spassword;
+
+                Sname = name.getText().toString();
                 Susername = username.getText().toString();
                 Spassword = password.getText().toString();
 
-                if(Susername.equals("") || Spassword.equals("")){
+                if(Sname.equals("") || Susername.equals("") || Spassword.equals("")){
                     Toast.makeText(getApplicationContext(), "Please enter all the details", Toast.LENGTH_LONG).show();
+                }
+                else if(!isValidEmail(Susername.trim())){
+                    Toast.makeText(getApplicationContext(), "Invalid Email Address", Toast.LENGTH_SHORT).show();
                 }
                 else if(!isValidPassword(Spassword.trim())){
                     Toast.makeText(getApplicationContext(), "Invalid Password", Toast.LENGTH_SHORT).show();
@@ -44,6 +50,7 @@ public class MainActivity extends AppCompatActivity {
                 else{
                     Toast.makeText(getApplicationContext(), "Sign Up successful", Toast.LENGTH_SHORT).show();
                     Bundle bundle = new Bundle();
+                    bundle.putString("name", Sname);
                     bundle.putString("user", Susername);
                     bundle.putString("password", Spassword);
                     Intent intent = new Intent(MainActivity.this, LoginActivity.class);
@@ -67,5 +74,13 @@ public class MainActivity extends AppCompatActivity {
         pattern = Pattern.compile(PASSWORD_PATTERN);
         matcher = pattern.matcher(Password);
         return (matcher.matches());
+    }
+
+    public boolean isValidEmail(final String Email){
+        final String EMAIL_PATTERN = "^[a-zA-Z0-9+_.-]+@[a-zA-Z0-9.-]+$";
+        Pattern pattern = Pattern.compile(EMAIL_PATTERN);
+        Matcher matcher = pattern.matcher(Email);
+        return (matcher.matches());
+
     }
 }

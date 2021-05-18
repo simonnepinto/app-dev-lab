@@ -17,7 +17,7 @@ public class LoginActivity extends AppCompatActivity {
     EditText lusername, lpassword;
     TextView attempt;
     int counter = 3;
-    String user, passwd;
+    String name, user, passwd;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -32,6 +32,7 @@ public class LoginActivity extends AppCompatActivity {
 
         Bundle bundle = getIntent().getExtras();
         if(bundle!=null){
+            name = bundle.getString("name");
             user = bundle.getString("user");
             passwd = bundle.getString("password");
         }
@@ -45,6 +46,7 @@ public class LoginActivity extends AppCompatActivity {
                 if(luser.equals(user) && lpasswd.equals(passwd)){
                     Toast.makeText(getApplicationContext(), "Login Success", Toast.LENGTH_LONG).show();
                     Intent intent = new Intent(LoginActivity.this, LoginSuccessActivity.class);
+                    intent.putExtra("name", name);
                     startActivity(intent);
                 }
                 else{
