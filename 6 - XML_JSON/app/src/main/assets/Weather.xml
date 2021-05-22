@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<records>
+    <recipe>
+        <name>Apple Pie</name>
+        <quantity>1</quantity>
+        <serves>8</serves>
+        <type>Baking</type>
+        <cooking>30 mins</cooking>
+    </recipe>
+
+    <recipe>
+        <name>Pizza</name>
+        <quantity>1</quantity>
+        <serves>6</serves>
+        <type>Baking</type>
+        <cooking>20 mins</cooking>
+    </recipe>
+
+    <recipe>
+        <name>Pastries</name>
+        <quantity>20</quantity>
+        <serves>20</serves>
+        <type>Frying</type>
+        <cooking>7 mins</cooking>
+    </recipe>
+</records>

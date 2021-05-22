@@ -1,0 +1,23 @@
+[
+  {
+    "name" : "Apple Pie",
+    "quantity" : "1",
+    "serves" : "8",
+    "type" : "Baking",
+    "cooking time" : "30 mins"
+  },
+  {
+    "name" : "Pizza",
+    "quantity" : "1",
+    "serves" : "6",
+    "type" : "Baking",
+    "cooking time" : "20 mins"
+  },
+  {
+    "name" : "Pastries",
+    "quantity" : "20",
+    "serves" : "20",
+    "type" : "Frying",
+    "cooking time" : "7 mins"
+  }
+]

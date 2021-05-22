@@ -45,7 +45,8 @@ public class MainActivity extends AppCompatActivity {
                 }
                 else if(!isValidPassword(Spassword.trim())){
                     Toast.makeText(getApplicationContext(), "Invalid Password", Toast.LENGTH_SHORT).show();
-                    Toast.makeText(getApplicationContext(), "Include uppercase, lowercase, numbers and special characters with minimum number of 8 characters!", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(getApplicationContext(), "Include uppercase, lowercase, numbers and special characters with minimum " +
+                                                                  "number of 8 characters!", Toast.LENGTH_SHORT).show();
                 }
                 else{
                     Toast.makeText(getApplicationContext(), "Sign Up successful", Toast.LENGTH_SHORT).show();

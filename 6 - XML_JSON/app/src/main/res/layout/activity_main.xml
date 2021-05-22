@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity"
+    android:background="@drawable/bg"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <Button
+        android:id="@+id/buttonXML"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="PARSE XML"
+        android:textSize="30sp"
+        android:padding="10dp"
+        android:textColor="#DDCFB6"
+        android:background="@drawable/button"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="230dp"
+        android:layout_marginLeft="10dp"
+        android:onClick="callXML"/>
+
+    <Button
+        android:id="@+id/buttonParse"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="PARSE JSON"
+        android:textSize="30sp"
+        android:textColor="#DDCFB6"
+        android:padding="10dp"
+        android:background="@drawable/button"
+        android:layout_below="@id/buttonXML"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:layout_marginRight="10dp"
+        android:onClick="callJSON"/>
+</RelativeLayout>

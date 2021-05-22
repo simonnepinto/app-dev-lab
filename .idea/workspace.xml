@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9a70195e-ca63-4443-acf7-5101a23236c0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../Atom.lnk" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../EDUCATION/Cisco Packet Tracer.lnk" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../EDUCATION/GeoGebra Classic.lnk" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../EDUCATION/Keil uVision5.LNK" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../git-test/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,7 +23,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/3 - SignUp-Login" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
   </component>
   <component name="SvnConfiguration">
@@ -44,9 +40,9 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="421" y="95" key="FileChooserDialogImpl" timestamp="1621265131143">
+    <state x="421" y="95" key="FileChooserDialogImpl" timestamp="1621511415889">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="421" y="95" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1621265131143" />
+    <state x="421" y="95" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1621511415889" />
   </component>
 </project>

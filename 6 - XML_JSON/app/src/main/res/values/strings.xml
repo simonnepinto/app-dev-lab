@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">CounterApp</string>
+    <string name="back1"><![CDATA[<- BACK]]></string>
+    <string name="back2"><![CDATA[<- BACK]]></string>
+</resources>
