@@ -31,7 +31,7 @@ public class xmlActivity extends AppCompatActivity {
 
     public void parseXML(){
         try{
-            InputStream is1 = getAssets().open("Weather.xml");   //open the file
+            InputStream is1 = getAssets().open("Recipe.xml");   //open the file
             DocumentBuilderFactory documentBuilderFactory = DocumentBuilderFactory.newInstance();
             DocumentBuilder documentBuilder = documentBuilderFactory.newDocumentBuilder();
             Document document = documentBuilder.parse(is1);

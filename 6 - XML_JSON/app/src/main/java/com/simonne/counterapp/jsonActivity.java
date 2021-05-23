@@ -33,7 +33,7 @@ public class jsonActivity extends AppCompatActivity {
         String json;
 
         try{
-            InputStream is2 = getAssets().open("xml.json");
+            InputStream is2 = getAssets().open("Recipe.json");
             int size = is2.available(); //returns no of bytes occupied by file
             byte buffer[] = new byte[size];
             is2.read(buffer);
