@@ -45,3 +45,13 @@ This command  will copy the entire project to your local environment
 3.  Navigate to the cloned repository.
 4.  Choose the application you want to run and select 'settings.gradle' file
 5.  Run the application.
+
+
+## List of Programs
+
+1. Create an application to design a visiting Card.
+2. Design a calculator application.
+3. Design and develop a registration and login page.
+4. Develop an application to set a wallpaper that changes every 30 seconds.
+5. Design a counter application.
+6. Create an application for parsing XML and JSON data.
