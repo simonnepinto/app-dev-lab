@@ -18,6 +18,6 @@ The repository is a collection of the lab programs in the VTU course: Mobile App
 In order to use the applications, you must have the following installed:
 
 * [Android Studio](https://developer.android.com/studio/index.html)
-* Android SDK version 29 (Can be installed from within Android Studio)
+* Android SDK version 29
 * [JDK8](https://www.oracle.com/in/java/technologies/javase/javase-jdk8-downloads.html)
 * An Android device or emulator
