@@ -21,3 +21,27 @@ In order to use the applications, you must have the following installed:
 * Android SDK version 29
 * [JDK8](https://www.oracle.com/in/java/technologies/javase/javase-jdk8-downloads.html)
 * An Android device or emulator
+
+
+## Getting Started 🚀
+
+### How To Use 🔧
+
+#### Clone the Project
+
+From your command line:
+```bash
+# Clone this repository
+$ git clone https://github.com/simonnepinto/app-dev-lab.git
+
+```
+
+This command  will copy the entire project to your local environment
+
+#### Running the app
+
+1.  Pull down the code locally.
+2.  Open Android Studio and select 'Open an existing Android Studio Project'
+3.  Navigate to the cloned repository.
+4.  Choose the application you want to run and select 'settings.gradle' file
+5.  Run the application.
