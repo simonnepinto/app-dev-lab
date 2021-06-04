@@ -55,3 +55,4 @@ This command  will copy the entire project to your local environment
 4. Develop an application to set a wallpaper that changes every 30 seconds.
 5. Design a counter application.
 6. Create an application for parsing XML and JSON data.
+7. Design an application to convert text to speech
