@@ -7,8 +7,8 @@
 
 
 <p align="center">
-<img src="https://forthebadge.com/images/badges/built-for-android.svg">
 <img src="https://forthebadge.com/images/badges/made-with-java.svg">
+<img src="https://forthebadge.com/images/badges/built-for-android.svg">
 </p>
 
 ## Overview
