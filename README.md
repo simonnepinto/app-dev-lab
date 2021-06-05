@@ -56,4 +56,4 @@ This command  will copy the entire project to your local environment
 5. Design a counter application.
 6. Create an application for parsing XML and JSON data.
 7. Design an application to convert text input given by the user, to speech.
-8. Develop a phonebook that allows users to call and save numbers.
+8. Develop a phonebook application that allows users to call and save numbers.
