@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Medicine">
+
+    <TextView
+        android:id="@+id/heading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="30dp"
+        android:text="Medicine Reminder"
+        android:textStyle="bold"
+        android:fontFamily="casual"
+        android:textColor="#883A55"
+        android:textSize="30sp"/>
+
+    <TextView
+        android:layout_width="230dp"
+        android:layout_height="80dp"
+        app:layout_constraintTop_toBottomOf="@id/heading"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@id/meds"
+        android:text="Never miss another dose!"
+        android:layout_marginTop="20dp"
+        android:fontFamily="sans-serif-condensed-light"
+        android:textSize="30sp"/>
+
+    <ImageView
+        android:id="@+id/meds"
+        android:layout_width="150dp"
+        android:layout_height="120dp"
+        app:layout_constraintTop_toBottomOf="@id/heading"
+        app:layout_constraintRight_toRightOf="parent"
+        android:src="@drawable/med"
+        android:layout_marginRight="10dp"/>
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/meds"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginLeft="35dp"
+        android:textSize="20sp"
+        android:fontFamily="casual"
+        android:textColor="@color/black"
+        android:text="Pill Name:"/>
+
+    <EditText
+        android:id="@+id/pillName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/tv1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:background="@drawable/editbg"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textSize="20sp"
+        android:hint="Enter Pill name"/>
+
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/pillName"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="35dp"
+        android:textSize="20sp"
+        android:fontFamily="casual"
+        android:textColor="@color/black"
+        android:text="Day to notify:"/>
+
+    <EditText
+        android:id="@+id/date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/tv2"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:background="@drawable/editbg"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textSize="20sp"
+        android:hint="Choose a date"/>
+
+    <TextView
+        android:id="@+id/tv3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/date"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="35dp"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:fontFamily="casual"
+        android:text="Frequency:"/>
+
+    <EditText
+        android:id="@+id/freq"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/tv3"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:background="@drawable/editbg"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:textSize="20sp"
+        android:hint="Days"/>
+
+    <TextView
+        android:id="@+id/tv4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/date"
+        app:layout_constraintLeft_toRightOf="@id/tv3"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="85dp"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:fontFamily="casual"
+        android:text="Type:"/>
+
+    <EditText
+        android:id="@+id/type"
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/tv4"
+        app:layout_constraintLeft_toRightOf="@id/freq"
+        android:background="@drawable/editbg"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="60dp"
+        android:inputType="textPersonName"
+        android:textSize="20sp"
+        android:hint="Type of Medicine"/>
+    <TextView
+        android:id="@+id/tv5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/freq"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="35dp"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:fontFamily="casual"
+        android:text="Dosage:"/>
+
+    <EditText
+        android:id="@+id/dosage"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/tv5"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:background="@drawable/editbg"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:textSize="20sp"
+        android:hint="No of Pills"/>
+
+    <TextView
+        android:id="@+id/tv6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/type"
+        app:layout_constraintLeft_toRightOf="@id/tv5"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="110dp"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:fontFamily="casual"
+        android:text="Time to notify:"/>
+
+    <EditText
+        android:id="@+id/time"
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/tv6"
+        app:layout_constraintLeft_toRightOf="@id/dosage"
+        app:layout_constraintRight_toRightOf="parent"
+        android:background="@drawable/editbg"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="40dp"
+        android:textSize="20sp"
+        android:hint="Choose a time"/>
+
+    <Button
+        android:id="@+id/insert"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/time"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="70dp"
+        android:background="@drawable/medremind"
+        android:text="Schedule"
+        android:textColor="#FFFFFF"
+        android:textSize="25sp"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

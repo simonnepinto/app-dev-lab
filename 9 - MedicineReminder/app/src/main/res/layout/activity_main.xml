@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#9D86A3"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="450dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="0dp"
+        app:layout_constraintBottom_toTopOf="@id/enter"
+        android:src="@drawable/first"/>
+
+    <Button
+        android:id="@+id/enter"
+        android:layout_width="580dp"
+        android:layout_height="wrap_content"
+        android:text="GET STARTED    ->"
+        android:textSize="25sp"
+        android:textColor="#F3F0F4"
+        android:background="@drawable/buttonbg"
+        android:layout_marginBottom="0dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:onClick="nextActivity"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
