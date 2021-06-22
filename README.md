@@ -58,3 +58,9 @@ This command  will copy the entire project to your local environment
 7. Design an application to convert text input given by the user, to speech.
 8. Develop a phonebook application that allows users to call and save numbers.
 9. Create an application to allow users to set reminders for their doses of medicines.
+10. Develop an application to store meeting details, and retrieve the meetings scheduled for the day from another application.
+
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/53074235/122884621-f6247080-d35b-11eb-8ec8-fdcf9a93299a.png" width="80%" height="50%">
+</p>
