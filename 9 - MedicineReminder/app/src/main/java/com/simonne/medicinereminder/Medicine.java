@@ -101,14 +101,17 @@ public class Medicine extends AppCompatActivity {
             @RequiresApi(api = Build.VERSION_CODES.N)
             @Override
             public void onClick(View view) {
-                String lname, ldate, ltime;
+                String lname, ldate, ltime, lfreq, ltype, ldosage;
 
                 lname = name.getText().toString();
                 ldate = date.getText().toString();
                 ltime = time.getText().toString();
+                lfreq = time.getText().toString();
+                ltype = time.getText().toString();
+                ldosage = time.getText().toString();
 
                 //databaseHelper.delete();
-                status = databaseHelper.insertData(lname, ldate, ltime);
+                status = databaseHelper.insertData(lname, ldate, ltime, lfreq, ltype, ldosage);
 
                 if(status == true){
                     Toast toast = Toast.makeText(Medicine.this, Html.fromHtml("<font color='#883A55'><strong>"
@@ -157,5 +160,9 @@ public class Medicine extends AppCompatActivity {
             toast.setView(view);
             toast.show();
         }
+    }
+
+    public void deleteRecords(View view) {
+        databaseHelper.delete();
     }
 }
